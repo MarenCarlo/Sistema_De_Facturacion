@@ -1,0 +1,84 @@
+body{
+    background: url(../media/Back1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+#DIV1{
+    background: #FFFFFF;
+}
+#DIV2 ::-webkit-scrollbar {
+    display: none;
+}
+.cuadrolista, .detalles{
+    height: 100vh;
+}
+.cuadros{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto{
+    background-color: purple;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 5px 0px;
+}
+.primary{
+    color: green;
+    font-size: 2em;
+    margin-left: 95%;
+    padding: 0;
+    margin-bottom: -15px;
+}
+.formulariodetalle{
+    overflow-x: hidden;
+}
+.cuadrodetalle{
+    height: 100%;
+}
+.lista{
+    overflow-y: scroll;
+    height: 78%;
+}
+.formulariodetalle {
+    overflow-y: scroll;
+    height: 50%;
+    /* flex-direction: column; */
+}
+.close{
+    float: right;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 0.5;
+    color: #000; 
+    opacity: 1; 
+}
+.close{
+    margin: 0 !important;
+    color: #009dff;
+}
+.btnguardar{
+    color: #009dff;
+}
+.formulariodetalle{
+    overflow-y: scroll;
+    height: 60%;
+}
+.segundo{
+    display: none;
+}
+.mostrarnumero2{
+    color: #008f1b;
+    text-align: right;
+    background-color: #0000001a;
+    margin-top: 20px;
+    display: none;
+}
+.idcontacto{
+    display: none;
+}
